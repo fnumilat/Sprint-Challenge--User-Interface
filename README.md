@@ -34,9 +34,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It brings meaning into a web page. For example, a <p> tag indicates that the enclosed text is a paragraph. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+An element with display: inline; cannot have a height or a width or a vertical margin. An element with display: block; can have a width, height and margin.
+
+Display inline flows along with text content but block can't.
+
+3. 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
