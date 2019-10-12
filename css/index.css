@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .logo {
     margin-top: -5%;
     padding-right: 10%;
@@ -88,10 +93,15 @@ p {
 	text-decoration: none;
   }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.headerimage {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
 }
+
+
 
 .top-content {
     display: flex;
@@ -103,7 +113,6 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;  
 }
 
