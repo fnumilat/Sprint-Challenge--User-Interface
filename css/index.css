@@ -84,6 +84,7 @@ p {
 	margin-top: 35px;
     padding-bottom: 40px;
     align-items: center;
+    font-weight: bold;
   }
 
   .menubar nav a{
@@ -107,6 +108,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-weight: bold;
 }
 
 .top-content .text-container {
@@ -117,6 +119,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-weight: bold;
 }
 
 .middle-content h2 {
@@ -144,6 +147,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    font-weight: bold;
 }
 
 .bottom-content .text-container {
@@ -171,4 +175,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-top-content {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    font-weight: bold;
+}
+
+.about-top-content .text-container {
+    width: 100%;
+    padding-bottom: 20px;  
+    margin-left: 2%;
+}
+
+.about-middle-content {
+    display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 2%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    align-items: center;  
+    margin-left: -0%; 
+}
+
+.about-middle-content div {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 2%;
+	width: 50%; 
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+    font-weight: bold;
+}
+
+.about-middle-content h2{
+    margin-top: 4%;
+}
+
+.about-middle-content .button {
+    margin-top: 4%;
+    border-color: black;
+    background: white;
+    border-radius: 12px;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+
+}
+
+.about-middle-content p {
+    width: 200%;
+    align-items: stretch;
+}
+
+.about-bottom-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-bottom-content .text-container {
+    width: 100%;
+    padding-bottom: 20px;  
+    margin-left: 2%;
+    font-weight: bold;
 }

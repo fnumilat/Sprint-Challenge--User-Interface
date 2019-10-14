@@ -42,11 +42,17 @@ An element with display: inline; cannot have a height or a width or a vertical m
 
 Display inline flows along with text content but block can't.
 
-3. 
+3. What are the 4 areas of the box model?
+
+Padding, Border, Margin, Position.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross access.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to developers because they can store projects and keep track of changes to their files. It’s a cloud-based server that’s revolutionized real-time collaborative work between digital teams.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
